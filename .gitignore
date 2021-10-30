@@ -1,0 +1,8 @@
+/bin/
+.project
+.classpath
+.vscode
+build
+target
+.class
+.jar
