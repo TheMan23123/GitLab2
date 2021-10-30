@@ -1,0 +1,21 @@
+plugins {
+   id 'java'
+}
+
+java {
+    sourceCompatibility = JavaVersion.toVersion(11)
+    targetCompatibility = JavaVersion.toVersion(11)
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13'
+}
+
+test {  
+    ignoreFailures = true 
+    useJUnitPlatform()
+}
