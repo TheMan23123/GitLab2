@@ -26,7 +26,7 @@ public class Magazine implements Cloneable {
   /**
    * Create a new magazine.
    * @param title title of the magazine
-   * @param publDate publication date of the magazine.
+   * @param pubDate publication date of the magazine.
    */
   public Magazine(String title, LocalDate pubDate) {
   }
@@ -114,7 +114,7 @@ public class Magazine implements Cloneable {
    * all functions on them return equal results..
    *
    * @param obj object to be compared for equality with this magazine
-   * @return <tt>true</tt> if the specified object is equal to this one
+   * @return true if the specified object is equal to this one
    */
   public boolean equals(Object obj) {
     return true;
