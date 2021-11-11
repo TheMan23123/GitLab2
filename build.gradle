@@ -3,6 +3,12 @@ plugins {
 	id "org.xbib.gradle.plugin.jflex" version "1.5.0"
 
 }
+reports{
+	javadoc.state.executed  
+	test.state.executed 
+
+	
+}
 
 java {
      sourceCompatibility = JavaVersion.toVersion(11)
