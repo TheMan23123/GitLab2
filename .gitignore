@@ -1,9 +1,9 @@
 /bin/
-.project
-.classpath
-.vscode
+*.project
+*.classpath
+*.vscode
 build
 target
-.class
-.jar
+*.class
+*.jar
 /.gradle/
