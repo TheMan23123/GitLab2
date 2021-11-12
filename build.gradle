@@ -85,6 +85,7 @@ gitPublish {
     // what to keep in the existing branch (include=keep)
     preserve {
 		include 'index.md'
+		include '_config.yml'
         exclude '1.0.0/temp.txt'
     }
 
